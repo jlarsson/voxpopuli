@@ -27,7 +27,7 @@ require 'voxel-food'
 require 'voxel-sfx'
 require 'voxel-fly'
 require 'voxel-gamemode'
-require 'voxel-walk'
+#require 'voxel-walk'
 require 'voxel-sprint'
 require 'voxel-decals'
 require 'voxel-mine'
@@ -43,7 +43,7 @@ require 'voxel-glass'
 require 'voxel-land'
 require 'voxel-decorative'
 require 'voxel-inventory-creative'
-require 'voxel-clientmc'
+#require 'voxel-clientmc'
 require 'voxel-console'
 require 'voxel-commands'
 require 'voxel-drop'
@@ -146,7 +146,7 @@ main = () ->
     'voxel-land': {populateTrees: true}
     'voxel-decorative': {}
     'voxel-inventory-creative': {}
-    'voxel-clientmc': {url: 'ws://localhost:1234', onDemand: true}
+    #'voxel-clientmc': {url: 'ws://localhost:1234', onDemand: true}
 
     'voxel-console': {}
     'voxel-commands': {}
